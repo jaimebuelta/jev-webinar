@@ -1,0 +1,5 @@
+ollama
+python-dotenv
+typesafe-sdk
+openai
+rich
