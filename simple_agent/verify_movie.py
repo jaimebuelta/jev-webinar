@@ -142,16 +142,19 @@ def verify_movie(movie_info):
     return filter_movie_jev(movie_info)
 
 
-
 # PREPARE A COUPLE OF EXAMPLE MOVIES TO TEST THE FUNCTIONALITY
 NOT_ADEQUATE_MOVIE = {
     'title': 'The Day of the Beast',
-    'overview': 'When a rogue priest discovers the exact date the Antichrist will be born, he enlists a Death Metal record store clerk and a cheesy TV psychic for an urban spree of gore, sacrilege and twisted humor to prevent the Apocalypse.'
+    'overview': 'When a rogue priest discovers the exact date the Antichrist will be born, '
+                'he enlists a Death Metal record store clerk and a cheesy TV psychic for an '
+                'urban spree of gore, sacrilege and twisted humor to prevent the Apocalypse.'
 }
 
 ADEQUATE_MOVIE = {
     'title': 'Gremlins',
-    'overview': 'After receiving an exotic small animal as a Christmas gift, a young man inadvertently breaks three important rules concerning his new pet, which unleashes a horde of malevolently mischievous creatures on a small town.'
+    'overview': 'After receiving an exotic small animal as a Christmas gift, a young man '
+                'inadvertently breaks three important rules concerning his new pet, which '
+                'unleashes a horde of malevolently mischievous creatures on a small town.'
 }
 
 
