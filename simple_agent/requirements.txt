@@ -1,0 +1,7 @@
+ollama
+python-dotenv
+typesafe-sdk
+mcp
+openai
+openai-agents
+rich
